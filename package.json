@@ -1,0 +1,39 @@
+{
+  "name": "reflux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.1"
+  },  
+  "scripts": {
+    "start": "node .",
+    "postinstall": "gulp build",
+    "test": "gulp test",
+    "build": "gulp build",
+    "build-fast": "gulp build-fast",
+    "run": "guilp build && npm start",
+    "run-fast": "gulp build-fast && npm start",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "build-asset": "^1.0.0",
+    "build-bundle": "^1.0.0",
+    "build-style": "^1.0.0",
+    "bootstrap-sass": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "build-transform": "^1.0.0",
+    "express": "^4.13.4",
+    "flux-angular2": "^1.0.0",
+    "compression": "^1.6.1",
+    "throng": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp-watch": "^4.3.5",
+    "build-lint": "^1.0.0",
+    "build-test": "^1.0.0",
+    "jsdom": "^8.1.0"
+  }
+}
